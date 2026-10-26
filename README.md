@@ -1,3 +1,5 @@
+![QRPi – Whispering Raspberries](docs/qrpi_banner.png)
+
 # QRPi – Whispering Raspberries: a Raspberry Pi QRP TX shield (20 m WSPR)
 
 QRPi is a 20 m band, 20 dBm RF signal conditioner shield for the Raspberry Pi. It takes the RF square wave that the Pi generates on a GPIO pin and turns it into a clean, filtered QRP transmit signal: a MOSFET (MMBF170) stage followed by a multi-section low-pass filter. It was presented as a TAPR-DCC 2015 talk paper and was sold through TAPR and on Amazon.
@@ -51,7 +53,7 @@ Two-layer board. The Raspberry Pi GPIO header pins pass through the board and in
 | `Eagle/CAM/20m_RPI_WSPR_TX_1v6.zip` | Original manufacturing files: Gerbers, Excellon drill files, PDFs |
 | `KiCad/` | KiCad 10 project: schematic, PCB, project symbol and footprint libraries, design rules |
 | `KiCad/3dmodels/` | STEP models used by the 3D view, from the KiCad standard library |
-| `docs/` | TAPR-DCC 2015 paper, prototype photo, 3D renders |
+| `docs/` | TAPR-DCC 2015 paper, prototype photo, 3D renders, banner |
 
 ## About the KiCad version
 
