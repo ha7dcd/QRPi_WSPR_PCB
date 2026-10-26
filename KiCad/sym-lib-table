@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "20m_QRPi_1V6-eagle-import") (type "KiCad") (uri "${KIPRJMOD}/20m_QRPi_1V6-eagle-import.kicad_sym") (options "") (descr ""))
+)

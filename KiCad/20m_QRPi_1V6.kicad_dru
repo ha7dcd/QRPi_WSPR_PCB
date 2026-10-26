@@ -1,0 +1,12 @@
+(version 1)
+# eagle2kicad_fix begin (Eagle clearance matrix)
+(rule "eagle_mdSmdPad"
+  (condition "A.Pad_Type == 'SMD' && B.Pad_Type == 'Through-hole'")
+  (constraint clearance (min 0mm)))
+(rule "eagle_mdSmdVia"
+  (condition "A.Pad_Type == 'SMD' && B.Type == 'Via'")
+  (constraint clearance (min 0mm)))
+(rule "eagle_mdSmdSmd"
+  (condition "A.Pad_Type == 'SMD' && B.Pad_Type == 'SMD'")
+  (constraint clearance (min 0mm)))
+# eagle2kicad_fix end

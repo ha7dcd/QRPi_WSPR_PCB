@@ -1,0 +1,144 @@
+(footprint "WIRE_CONTACT_2P"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 4.122418 3.228341 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eef298d9-a2e0-42ee-9624-13e97045383b")
+		(effects
+			(font
+				(size 0.88646 0.88646)
+				(thickness 0.12954)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "WIRE_CONTACT_2P"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce4f2f61-8857-4d4c-8ef8-f3c0a034f8ee")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95d36fdf-f9ab-49f1-8b49-6f145c20bf88")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c98999af-3d9d-48cc-acf8-4c2f98493f8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.74 -4.44)
+		(end -2.74 2.23)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42ad3e19-f7ee-4794-aa5c-f5449ec6e5cd")
+	)
+	(fp_line
+		(start -2.74 2.23)
+		(end 2.74 2.23)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebe97ad2-d504-4cbd-bf7d-1282f47f526a")
+	)
+	(fp_line
+		(start 2.74 -4.44)
+		(end -2.74 -4.44)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27335722-0921-47fe-befe-0570e2f4db5a")
+	)
+	(fp_line
+		(start 2.74 2.23)
+		(end 2.74 -4.44)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9c4ef56-c96f-417c-9a9d-0e3aa621710f")
+	)
+	(pad "" np_thru_hole circle
+		(at -1.27 1.27)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 0.0508)
+		(uuid "f0486462-7350-4dc7-b51a-03d53cfff2b5")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.27 1.27)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(solder_mask_margin 0.0508)
+		(uuid "4444b47f-8785-4250-8fcc-abcdd312db1b")
+	)
+	(pad "P$1" thru_hole circle
+		(at -1.27 -1.27)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "39d5028d-62b9-4e84-95da-47130c1130e8")
+	)
+	(pad "P$2" thru_hole circle
+		(at 1.27 -1.27)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "439738da-bcca-4ed6-9209-3d06bb6f92d3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/3dmodels/TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal.step"
+		(offset
+			(xyz -1.27 1.27 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

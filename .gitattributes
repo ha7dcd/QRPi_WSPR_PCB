@@ -3,3 +3,7 @@
 *.zip binary
 *.xlsx binary
 *.pdf binary
+*.png binary
+*.jpg binary
+*.step -text
+*.kicad_* -text
