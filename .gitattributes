@@ -1,0 +1,5 @@
+*.brd -text
+*.sch -text
+*.zip binary
+*.xlsx binary
+*.pdf binary
